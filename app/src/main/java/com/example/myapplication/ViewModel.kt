@@ -5,6 +5,6 @@ import androidx.lifecycle.ViewModel
 
 class ViewModel : ViewModel() {
     val liveData = MutableLiveData<String>()
-    val liveDataList = MutableLiveData<String>()
+    val liveDataList = MutableLiveData<List<String>>()
 
 }
