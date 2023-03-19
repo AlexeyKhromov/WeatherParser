@@ -1,2 +1,2 @@
 # WeatherParser
-Weather parcer for pratice:)
+Weather parcer for practice:)
