@@ -4,7 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class ViewModel : ViewModel() {
-    val liveData = MutableLiveData<String>()
-    val liveDataList = MutableLiveData<List<String>>()
+    val liveData = MutableLiveData<WeatherModel>()
+    val liveDataList = MutableLiveData<List<WeatherModel>>()
 
 }
